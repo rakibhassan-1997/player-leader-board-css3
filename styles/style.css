@@ -213,7 +213,8 @@ hr {
   }
   .main-section {
     width: auto;
-    height: 1660px;
+    height: 1800px;
+    margin-bottom: 50px;
   }
   .all-blogs {
     display: flex;
@@ -248,8 +249,9 @@ hr {
   }
   .latest-coure {
     width: auto;
-    height: 1050px;
+    height: 1300px;
     margin: 20px auto;
+    gap: 50px;
   }
   .hr {
     width: 300px;
