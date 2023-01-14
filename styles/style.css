@@ -281,4 +281,8 @@ hr {
     height: 380px;
     width: 320px;
   }
+  .duration{
+    width: 115px;
+    height: 30px;
+  }
 }
