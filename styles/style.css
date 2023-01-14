@@ -151,6 +151,12 @@ hr {
 .course-1 img {
   width: 220px;
   height: 104px;
+  transition: width .3s ease-in, height .3s ease-in;
+
+}
+.course-1 img:hover{
+    width: 230px;
+    height: 114px;
 }
 .course-1-title {
   font-size: 20.0336px;
@@ -171,7 +177,7 @@ hr {
   align-items: center;
   gap: 5px;
   width: 90.83px;
-  height: 25.38px;
+  height: 16px;
   background: #ffe4e8;
   border-radius: 14.6913px;
   padding: 5.36px;
