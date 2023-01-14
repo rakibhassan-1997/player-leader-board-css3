@@ -200,6 +200,10 @@ hr {
   }
   .menu {
     gap: 7px;
+
+  }
+  .menu{
+    margin: right 20px; ;
   }
   .player-container {
     display: flex;
@@ -268,7 +272,10 @@ hr {
   body, html{
     width: 100vw;
     overflow-x: hidden;
-    padding: 0 .8em 0;
+    padding: 
+
+
+
   }
   .body{
     margin: 0 ;
