@@ -151,12 +151,11 @@ hr {
 .course-1 img {
   width: 220px;
   height: 104px;
-  transition: width .3s ease-in, height .3s ease-in;
-
+  transition: width 0.3s ease-in, height 0.3s ease-in;
 }
-.course-1 img:hover{
-    width: 230px;
-    height: 114px;
+.course-1 img:hover {
+  width: 230px;
+  height: 114px;
 }
 .course-1-title {
   font-size: 20.0336px;
@@ -193,4 +192,74 @@ hr {
   margin-left: 10.71px;
   font-size: 14.6913px;
   color: #a2a2a2;
+}
+
+@media screen and (max-width: 688px) {
+  .container {
+    margin: 0 5px;
+  }
+  .menu {
+    gap: 7px;
+  }
+  .player-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .top-player {
+    text-align: center;
+  }
+  .main-section {
+    width: auto;
+    height: 1660px;
+  }
+  .all-blogs {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+  .blog {
+    padding: 0 40px;
+  }
+  .blog-1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .blog-1 img {
+    width: 280px;
+  }
+  .blog-title {
+    margin: 0;
+  }
+  .top-blog {
+    text-align: center;
+  }
+  .blog-author {
+    margin: 0;
+  }
+  .all-course {
+    flex-direction: column;
+    /* margin-left: 40px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .latest-coure {
+    width: auto;
+    height: 1050px;
+  }
+  .hr {
+    width: 300px;
+  }
+  .latest-course-title {
+    text-align: center;
+  }
+  .blog-description {
+    text-align: center;
+  }
+  .top-playerr {
+    padding-top: 40px;
+  }
 }
