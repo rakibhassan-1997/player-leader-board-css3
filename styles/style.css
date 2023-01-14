@@ -196,7 +196,7 @@ hr {
 
 @media screen and (max-width: 688px) {
   .container {
-    margin: 0 5px;
+    margin: 0 0;
   }
   .menu {
     gap: 7px;
@@ -269,5 +269,11 @@ hr {
     width: 100vw;
     overflow-x: hidden;
     padding: 0 .8em 0;
+  }
+  .body{
+    margin: 0 ;
+  }
+  .course-1{
+    height: 380px;
   }
 }
