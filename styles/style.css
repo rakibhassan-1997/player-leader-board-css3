@@ -1,16 +1,20 @@
 * {
   font-family: "Poppins";
+  margin: ;
 }
-
+/* ------------------------
+----------Navbar----------
+------------------------ -*/
 .nav-bar {
   background-color: #562eff;
   height: 100px;
   color: #ffffff;
+  margin: 0 0;
 }
 .container {
   display: flex;
   justify-content: space-between;
-  margin: 0 250px;
+  margin: 0 485px;
 }
 .logo {
   display: flex;
@@ -23,42 +27,163 @@
 }
 .menu {
   display: flex;
-  gap: 50px;
+  gap: 36px;
   align-items: center;
 }
 .menu li {
   list-style: none;
 }
-/* main section */
-.main-section h2 {
-  font-weight: 500;
+/* -----------------------------
+---------main section---------- 
+-------------------------------*/
+.body {
+  background: #e5e5e5;
+}
+
+.main-section {
+  width: 870px;
+  height: 679px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #ffffff;
+}
+.top-player {
   font-size: 24px;
   color: #562eff;
-  margin-left: 50px;
-}
-.main-section {
- width: 870px;
-height: 679px;
-  margin: 0 auto;
-  border: 2px solid black;
+  margin-left: 30px;
+  padding-top: 33px;
+  margin-bottom: 0px;
 }
 .player-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 50px;
 
-  padding: 50px;
+  padding: 30px;
 }
-
 .player {
   display: flex;
-  /* justify-content: center; */
-  /* gap: 16px;
-    align-items: center;}} */
   gap: 16px;
 }
-
 .player img {
   width: 56px;
   height: 56px;
+}
+hr {
+  border: 1px solid #d1d1d1;
+  width: 807px;
+}
+/*-------------- ---------------------
+-----------------Top Blogs------------
+------------------------- -----------*/
+.blog {
+  padding: 0 57px 20px 30px;
+}
+.top-blog {
+  font-size: 24px;
+  color: #562eff;
+  padding-top: 0;
+  margin-bottom: 10px;
+}
+.all-blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.blog-1 {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.blog-1 img {
+  width: 177px;
+  height: 117px;
+}
+.blog-title {
+  font-size: 20px;
+}
+.blog-author {
+  color: #9f9f9f;
+  font-size: 16px;
+}
+.blog-author a {
+  text-decoration: none;
+  color: #562eff;
+}
+/* ----------------------------------
+---------------latest courses---------
+------------------------------------- */
+.latest-coure {
+  width: 870px;
+  height: 370px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+.all-course {
+  display: flex;
+  margin-left: 25px;
+}
+.latest-course-title {
+  font-size: 24px;
+  color: #562eff;
+  margin-left: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+.fa-solid {
+  color: #ffc014;
+  font-size: 12px;
+}
+#last-star {
+  color: #aeaeae;
+}
+
+.course-1 {
+  width: 250px;
+  height: 270.79px;
+  padding: 13px 17px 20px 11px;
+  box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+.course-1 img {
+  width: 240px;
+  height: 104px;
+}
+.course-1-title {
+  font-size: 20.0336px;
+  color: #1e1e1e;
+}
+.instructor {
+  font-size: 14.6913px;
+  color: #ed6b4f;
+}
+.course-des {
+  display: flex;
+  align-items: center;
+}
+.duration {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 94.83px;
+  height: 29.38px;
+  background: #ffe4e8;
+  border-radius: 14.6913px;
+  padding: 5.36px;
+  font-size: 14.6913px;
+  margin-left: 20px;
+}
+
+.duration img {
+  width: 20.03px;
+  height: 20.03px;
+}
+.rating {
+  margin-left: 10.71px;
+  font-size: 14.6913px;
+  color: #a2a2a2;
 }
