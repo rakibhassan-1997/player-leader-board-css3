@@ -263,4 +263,9 @@ hr {
   .top-playerr {
     padding-top: 40px;
   }
+  body, html{
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 0 .8em 0;
+  }
 }
